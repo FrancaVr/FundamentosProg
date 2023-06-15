@@ -1,0 +1,38 @@
+<!--Uma empresa concederá um aumento de salário aos seus funcionários, variável de
+acordo com o cargo, conforme a tabela abaixo. Faça uma página que leia o salário e o
+cargo de um funcionário e calcule o novo salário. Se o cargo do funcionário não estiver
+na tabela, ele deverá, então, receber 40% de aumento. Mostre o salário antigo, o novo
+salário e a diferença.-->
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="estilo/style.css" rel="stylesheet">  
+    <title>Exercicio 5 - Lista Extra </title>
+</head>
+<body>
+   
+    <h1> Selecione a sua Função e Informe seu Antigo Salário</h1>
+    <select id="cargo">
+        <option value="Função"> Função </option>
+        <option value="Gerente">Gerente</option>
+        <option value="Engenheiro">Supervisor</option>
+        <option value="Tecnico">Funcionário</option>
+        <option value="Outro">Outro</option>
+    </select>
+    <input type="Number" id="salario" placeholder="Valor Salarial">
+    <button onclick="calcularSalario()">Calcular</button>
+    <br>
+    <br>
+    <p id="salarioAntigo"></p>
+    <p id="novoSalario"></p>
+    <p id="diferenca"></p>
+
+ 
+</body>
+
+<script src="script/Script.js"> </script>
+</html>
