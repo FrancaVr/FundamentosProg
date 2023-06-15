@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabalho 2º - Bimestre </title>    
+    <link href="Estilo/style.css" 
+    rel="stylesheet" 
+    type="text/css">
+</head>
+<!-- Construa	uma	página	para	calcular	a	distância	entre	dois	pontos	do	plano	cartesiano.	
+Cada	ponto	é	um	par	ordenado	(x,y).		-->	
+
+<body>
+    <h1> Calculadora de Distâncias. </h1>
+
+    <label> Insira suas coordenadas (x,y) </label>
+    <br>
+    <input type="Number" id="xOndeEstou" placeholder="Insira o X de onde estou">;
+    <input type="Number" id="yOndeEstou" placeholder="Insira o Y de onde estou">;
+    <br>
+    <br>
+    <label> Insira as coordenadas para onde quer ir </label>
+    <br>
+    <input type="Number" id="xParaIr" placeholder="Insira o X para onde ir">;
+    <input type="Number" id="yParaIr" placeholder="Insira o Y para onde ir">;
+
+    <button onclick="Coordenada()"> Clique Aqui!</button>
+    <h3 id="resultadoX"> </h3>
+    <h3 id="resultadoY"> </h3>
+    <h3 id="resultadoDistancia"> </h3>
+
+    <h4 class="redirecionar"> Clique na página para ser redirecionado </h4>
+
+    <div class="botoesPaginas">
+        <button onclick="exercicio1()"> Página 1 </button>
+        <button onclick="exercicio2()"> Página 2 </button>
+        <button onclick="exercicio3()"> Página 3 </button>
+        <button onclick="exercicio4()"> Página 4 </button>
+        <button onclick="exercicio5()"> Página 5 </button>
+        <button onclick="exercicio6()"> Página 6 </button>
+        <button onclick="exercicio7()"> Página 7 </button>
+        <button onclick="exercicio8()"> Página 8 </button>
+        <button onclick="exercicio9()"> Página 9 </button>
+        <button onclick="exercicio10()"> Página 10 </button>
+        <button onclick="exercicio11()"> Página 11 </button>
+        <button onclick="exercicio12()"> Página 12 </button>
+        <button onclick="exercicio13()"> Página 13 </button>
+        <button onclick="exercicio14()"> Página 14 </button>
+    </div>
+
+</body>
+
+<script src="script/Script.js"> </script>
+</html>
